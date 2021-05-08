@@ -62,13 +62,13 @@ class Game {
                 fill("black");
                 textSize(25);
                 text(allPlayers[plr].name, x - 25, y + 25);
-
+                fill("white")
+                text("Player 1 score  :  " + allPlayers["player1"].score,20, 20);
+                text("Player 2 score  :  " + allPlayers["player2"].score,20, 60);
 
             }
 
-            fill("white")
-             text("Player1 score   :-   " + allPlayers.player1.score, 20, 20);
-             text("Player2 score   :-   " + allPlayers.player2.score, 20, 60);
+            
 
 
         }
